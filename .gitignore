@@ -1,12 +1,8 @@
-/node_modules/
 node_modules
-node_modules/**/*
-/.cache/
-.cache/**/*
-/.git/
-/.ide/
-/.ide/**/*
-/ide
+dist
+.cache
+.git
+.idea
 package-lock.json
 
 
