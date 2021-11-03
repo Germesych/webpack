@@ -1,4 +1,4 @@
-import './scss/index.scss'
-import './module'
+import "./scss/index.scss"
 
-console.log('Hi It Work!')
+import './js/module'
+

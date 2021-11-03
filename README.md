@@ -1,18 +1,9 @@
-**Создвание ветки**
-`git checkout -b "webpack"`
+# Сборка от 03.11.2021
 
-**Заливаем изменения в новую ветку:**
-`git push -u origin webpack`
+Запустить npm run start
 
-**Переходим в ветку master:**
-`git checkout master`
+Запустить сборку npm run build
 
-**После соединения веток и перехода в master набираем:**
-`git pull`
+залить в ветку git push -u origin имя_ветки
 
-**Фиксим Eslint, если ругается**
-`eslint --fix webpack.config.js`
-webpack.config.js - это файл котрый надо фиксить
 
-**Проверка файла/папки через Eslint**
-`eslint webpack.config.js src` проверяем файл и папку
