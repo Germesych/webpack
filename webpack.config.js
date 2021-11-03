@@ -2,6 +2,7 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const autoprefixer = require('autoprefixer');
 
 module.exports = (env, argv) => {
   const isProd = argv.mode === 'production'
@@ -64,6 +65,7 @@ module.exports = (env, argv) => {
           use: [
             MiniCssExtractPlugin.loader,
             "css-loader",
+            "postcss-loader",
             "sass-loader",
           ],
         },

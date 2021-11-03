@@ -1,3 +1,13 @@
+body{
+  display: grid;
+  transform: rotate(0deg);
+  transition: .5s all linear;
+}
+.box{
+  display: grid;
+  transform: rotate(0deg);
+  transition: .5s all linear;
+}
 @import "./settings/reset";
 @import "./settings/vars";
 @import "./settings/fonts-open_sans";

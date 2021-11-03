@@ -15,7 +15,11 @@
   "author": "",
   "license": "ISC",
   "private": true,
-  "browserslist": "> 0.25%, not dead",
+  "browserslist": [
+    "last 5 version",
+    "> 2%",
+    "IE 10"
+  ],
   "bugs": {
     "url": "https://github.com/Germesych/Excel-Curse/issues"
   },
@@ -23,6 +27,7 @@
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.0",
+    "autoprefixer": "^10.4.0",
     "babel-loader": "^8.2.3",
     "copy-webpack-plugin": "^9.0.1",
     "core-js": "^3.19.0",
@@ -30,6 +35,7 @@
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.4.3",
     "node-sass": "^4.14.0",
+    "postcss-loader": "^6.2.0",
     "regenerator-runtime": "^0.13.9",
     "sass": "^1.43.4",
     "sass-loader": "^12.3.0",
