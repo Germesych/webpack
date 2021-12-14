@@ -1,9 +1,12 @@
-# Сборка от 03.11.2021
+# webpack-one-page
 
-Запустить npm run start
+Работает в режиме одной страницы index.html
 
-Запустить сборку npm run build
+# webpack-one-page
 
-залить в ветку git push -u origin имя_ветки
+Работает с несколькими страницами 
 
-
+1 index.html // main page
+2 localhost:3000/about.html
+3 localhost:3000/contacts.html
+4 localhost:3000/catalog.html
